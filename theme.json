@@ -1,0 +1,25 @@
+{
+  "name":"Legion Go Theme",
+  "author":"azu",
+  "version":"v0.1",
+  "manifest_version":1,
+  "patches":{
+     "Apply":{
+        "type":"checkbox",
+        "default":"No",
+        "values":{
+           "Yes":{
+              "ps.css":[
+                 "SP",
+                 "QuickAccess",
+                 "MainMenu"
+              ]
+           },
+           "No":{
+
+           }
+        }
+     }
+  },
+  "id":"2337133713371337"
+}
