@@ -1,22 +1,26 @@
 {
   "name":"Legion Go Theme",
   "author":"azu",
-  "version":"v0.1",
+  "version":"v0.2",
   "manifest_version":1,
   "patches":{
      "Apply":{
-        "type":"checkbox",
-        "default":"No",
+        "type":"dropdown",
+        "default":"Xbox/Legion Go",
         "values":{
-           "Yes":{
+           "Xbox/Legion Go":{
               "ps.css":[
                  "SP",
                  "QuickAccess",
                  "MainMenu"
               ]
            },
-           "No":{
-
+           "Legion Go":{
+               "lego.css":[
+                  "SP",
+                  "QuickAccess",
+                  "MainMenu"
+               ]
            }
         }
      }
