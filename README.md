@@ -6,4 +6,4 @@ Install instructions:
 # cd $HOME/homebrew/themes && git clone https://github.com/frazse/SBP-Legion-Go-Theme.git
 ```
 thanks Aru :)
-![alt text](https://cdn.discordapp.com/attachments/604790136554651679/1183892838740672624/image.png?ex=6589fd20&is=65778820&hm=bfae7a2274a66e42082436cdc0effeae63a119f963771834e247447fa7f45844&)
+![alt text](https://cdn.discordapp.com/attachments/604790136554651679/1187775531706503211/image.png?ex=65981d2a&is=6585a82a&hm=15aa475fa1fa002167c92ee4d24493129448d9c48e9ceff9ffa1003565793a3f&)
