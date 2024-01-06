@@ -1,4 +1,5 @@
 # SBP-Legion-Go-Theme
+made with HHD in mind: https://github.com/antheas/hhd
 Install instructions:
 ```
 # quick install, CSS Loader Decky Plugin must already be installed and enabled
