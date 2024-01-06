@@ -1,7 +1,7 @@
 {
   "name":"Legion Go Theme",
   "author":"azu",
-  "version":"v0.2",
+  "version":"v0.22",
   "manifest_version":1,
   "patches":{
      "Apply":{
@@ -21,6 +21,39 @@
                   "QuickAccess",
                   "MainMenu"
                ]
+           }
+        }
+     },
+
+      "L is Select":{
+        "type":"checkbox",
+        "default":"No",
+        "values":{
+           "Yes":{
+              "l_is_select.css":[
+                 "SP",
+                 "QuickAccess",
+                 "MainMenu"
+              ]
+           },
+           "No":{
+
+           }
+        }
+     },
+           "L is Start":{
+        "type":"checkbox",
+        "default":"No",
+        "values":{
+           "Yes":{
+              "l_is_start.css":[
+                 "SP",
+                 "QuickAccess",
+                 "MainMenu"
+              ]
+           },
+           "No":{
+
            }
         }
      }

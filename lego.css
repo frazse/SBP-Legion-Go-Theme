@@ -25,11 +25,11 @@ img[src="/steaminputglyphs/ps_button_x.svg"] {
 /* Shoulder Buttons */
 img[src="/steaminputglyphs/ps5_r1.svg"] {
     content: url("/themes_custom/SBP-Legion-Go-Theme/lego-buttons/RB.png");
-    transform: scale(0.36);
+    transform: scale(0.88);
 }
 img[src="/steaminputglyphs/ps5_l1.svg"] {
     content: url("/themes_custom/SBP-Legion-Go-Theme/lego-buttons/LB.png");
-    transform: scale(0.36);
+    transform: scale(0.88);
 }
 img[src="/steaminputglyphs/ps5_r2.svg"] {
     content: url("/themes_custom/SBP-Legion-Go-Theme/lego-buttons/RT.png");
