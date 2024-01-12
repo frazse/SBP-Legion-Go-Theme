@@ -1,62 +1,63 @@
 {
-  "name":"Legion Go Theme",
-  "author":"azu",
-  "version":"v0.22",
-  "manifest_version":1,
-  "patches":{
-     "Apply":{
-        "type":"dropdown",
-        "default":"Xbox/Legion Go",
-        "values":{
-           "Xbox/Legion Go":{
-              "ps.css":[
-                 "SP",
-                 "QuickAccess",
-                 "MainMenu"
-              ]
-           },
-           "Legion Go":{
-               "lego.css":[
-                  "SP",
-                  "QuickAccess",
-                  "MainMenu"
-               ]
-           }
-        }
-     },
-
-      "L is Select":{
-        "type":"checkbox",
-        "default":"No",
-        "values":{
-           "Yes":{
-              "l_is_select.css":[
-                 "SP",
-                 "QuickAccess",
-                 "MainMenu"
-              ]
-           },
-           "No":{
-
-           }
-        }
-     },
-           "L is Start":{
-        "type":"checkbox",
-        "default":"No",
-        "values":{
-           "Yes":{
-              "l_is_start.css":[
-                 "SP",
-                 "QuickAccess",
-                 "MainMenu"
-              ]
-           },
-           "No":{
-
-           }
-        }
-     }
-  },
-  "id":"2337133713371337"
+	"name": "Legion Go Theme",
+	"author": "azu",
+	"target": "System-Wide",
+	"version": "v0.22",
+	"description": "Theme for the Lenovo Legion Go",
+	"manifest_version": 5,
+	"inject": {},
+	"dependencies": {},
+	"patches": {
+		"Apply": {
+			"type": "dropdown",
+			"default": "Legion Go",
+			"values": {
+				"Xbox/Legion Go": {
+					"ps.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Legion Go": {
+					"lego.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"L is Select": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"l_is_select.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"L is Start": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"l_is_start.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		}
+	}
 }
