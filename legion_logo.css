@@ -1,0 +1,4 @@
+img[src="/steaminputglyphs/ps4_button_logo.svg"] {
+    content: url("/themes_custom/SBP-Legion-Go-Theme/legion_logo.svg");
+    transform: scale(0.88);
+}

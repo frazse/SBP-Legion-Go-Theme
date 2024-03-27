@@ -2,7 +2,7 @@
 	"name": "Legion Go Theme",
 	"author": "azu",
 	"target": "System-Wide",
-	"version": "v0.22",
+	"version": "v0.23",
 	"description": "Theme for the Lenovo Legion Go",
 	"manifest_version": 5,
 	"inject": {},
@@ -26,6 +26,21 @@
 						"QuickAccess"
 					]
 				}
+			},
+			"components": []
+		},
+		"Legion Logo": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"legion_logo.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
 			},
 			"components": []
 		},
